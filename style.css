@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+header{
+    text-align: center;
+    background-color: rgb(7,21,76);
+    padding: 20px;
+}
+.home{
+    color: rgb(131, 200, 28);
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: dashed;
+}
+.biog{
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+    text-decoration: dashed;
+}
+.container{
+text-align: center;
+}
+h1{
+    margin: 20px;
+    font-size: 40px;
+}
+h2{
+    margin: 20px;
+    font-size: 25px;
+}
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(153,216,202);
+    border: 15px solid rgb(88,115,226);
+    outline: 4px solid black;
+    box-shadow: 0 0 0 22px rgb(144,255,169);
+    border-radius: 5px;
+    margin: 60px auto;
+}
+.circle1{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(153,216,202);
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid;
+}
+.circle2{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid;
+    margin-left: 10px;
+}
+.circle3{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(144,255,169);
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid;
+    margin-left: 10px;
+}
+.circle4{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(88,115,226);
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid;
+    margin-left: 10px
+}
+.one{
+    font-size: 20px;
+    display: inline-block;
+}
+hr{
+    border-bottom: 2px dotted;
+    margin: 50px;
+}
+.container{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container{
+    width: 800px;
+    
+}
+.box1{
+    width: 240px;
+    height: 100px;
+    margin: 8px;
+    background-color: rgb(219,224,250);
+    display: inline-block;
+}
+.box2{width: 240px;
+    height: 100px;
+    margin: 8px;
+    background-color: rgb(219,224,250);
+    display: inline-block;
+    border: 1px solid;
+}
+.border{
+    border:1px solid gray;
+}
+.new{
+    height: 100px;
+    width: 48%;
+    display: inline-block;
+    
+}
+.heading{
+    width: 100%;
+    display: inline-block;
+    
+}
+.font{
+    font-size: 30px;
+}
+.line{
+    text-decoration: dashed;
+    background-color: rgb(25,187,61);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.container2{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.image{
+    width: 100%;
+    height: 100%;
+}
+.parent{
+    height: 400px;
+    display: inline-flex;
+}
+.newone{
+    display: inline-block;
+    width: 48%;
+    height: 100%;
+    margin: 60px 10px;
+    padding-bottom: 20px;
+}
+h3{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+.read{
+    text-decoration: dashed;
+    background-color:rgb(25,187,61);
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    padding: 8px;
+    margin-bottom: 30px
+}
+.studytable{
+    width: 100%;
+    height: 400px;
+    
+    
+
+}
+.learnn{
+    color:rgb(25,187,61) ;
+    font-size: 20px;
+    margin: 0 auto;
+}
